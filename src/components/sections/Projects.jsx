@@ -25,7 +25,7 @@ export const Projects = () => {
                                 ))}
                             </div>
                             <div className = "flex-justify-between items-center mt-4">
-                                <a href="#" className="text-indigo-400 hover:text-indigo-300 transition">View Projects →</a>
+                                <a href="#" className="text-indigo-400 hover:text-indigo-300 transition">View Project →</a>
                             </div>
                         </div>
 
@@ -47,7 +47,7 @@ export const Projects = () => {
                                 ))}
                             </div>
                             <div className = "flex-justify-between items-center mt-4">
-                                <a href="#" className="text-indigo-400 hover:text-indigo-300 transition">View Projects →</a>
+                                <a href="#" className="text-indigo-400 hover:text-indigo-300 transition">View Project →</a>
                             </div>
                         </div>
 
@@ -69,7 +69,7 @@ export const Projects = () => {
                                 ))}
                             </div>
                             <div className = "flex-justify-between items-center mt-4">
-                                <a href="#" className="text-indigo-400 hover:text-indigo-300 transition">View Projects →</a>
+                                <a href="#" className="text-indigo-400 hover:text-indigo-300 transition">View Project →</a>
                             </div>
                         </div>
 
@@ -91,7 +91,7 @@ export const Projects = () => {
                                 ))}
                             </div>
                             <div className = "flex-justify-between items-center mt-4">
-                                <a href="#" className="text-indigo-400 hover:text-indigo-300 transition">View Projects →</a>
+                                <a href="#" className="text-indigo-400 hover:text-indigo-300 transition">View Project →</a>
                             </div>
                         </div>
                     </div>
