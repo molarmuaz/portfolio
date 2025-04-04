@@ -17,7 +17,7 @@ export const About = () => {
 
                     <div className="glass rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
                         <p className="text-gray-300 mb-6">
-                            Hi, I’m <span className="font-bold">Muaz</span>, a Computer Science student at with a passion for{" "}
+                            Hi, I’m <span className="font-bold">Muaz</span>, a Computer Science student with a passion for{" "}
                             <span className="font-bold">AI/ML, full-stack development, and UI/UX design</span>. I love
                             building projects that are both functional and aesthetically pleasing, always focusing on user experience
                             and design. When I’m not coding, I’m leading as{" "}
