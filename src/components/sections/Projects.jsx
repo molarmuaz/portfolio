@@ -31,13 +31,13 @@ export const Projects = () => {
 
                         <div className = "p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:-border-indigo-500/30 hover:-shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all cursor-pointer">
                             <h3 className = "text-xl font-bold mb-2">
-                                XYZ
+                                TEZ – Bus Tracking & Transport Platform
                             </h3>
                             <p className="text-gray-400 mb-4">
-                                afaujehfaouefghaoeughaoudfhgaouehgaoudfh
+                            A real-time bus management app for institutions. Built the responsive frontend enabling live tracking, seat monitoring, and digital ticketing with a clean, accessible interface.
                             </p>
                             <div>
-                                {["ABC","SEGE","WRWR"].map((tech,key) =>(
+                                {["React.js","Git"].map((tech,key) =>(
                                     <span
                                     key={key}
                                     className="bg-indigo-500/20 text-indigo-400 py-1 px-3 rounded-full text-xs hover:bg-indigo-500/40 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition cursor-pointer"
