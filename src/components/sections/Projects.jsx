@@ -9,23 +9,23 @@ export const Projects = () => {
                     <div className = "grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className = "p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:-border-indigo-500/30 hover:-shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all cursor-pointer">
                             <h3 className = "text-xl font-bold mb-2">
-                                TableForWho - UI/UX Design
+                                Turret (Work in Progress)
                             </h3>
                             <p className="text-gray-400 mb-4">
-                                A concept project that reimagines the dining reservation experience through a user-centered lens. This case study walks through the entire UX process—from initial user interviews and pain point analysis to wireframes, high-fidelity mockups, and usability testing. Focused on solving real frustrations with clarity, personalization, and accessible design, the final prototype delivers both form and function.
+                                My take on what a notepad should be in 2025 — smart, local, and a little bit magic. It captures microphone audio (meetings or lectures), transcribes it with Whisper, and then drafts structured notes using an LLM. Whether it's lectures or meetings. 
                             </p>
                             <div>
-                                {["Figma","Photoshop","UX Research", "Wireframing"].map((tech,key) =>(
+                                {["React.js","Node.js","Electron.js", "Python", "Whisper"].map((tech,key) =>(
                                     <span
                                     key={key}
-                                    className="bg-indigo-500/20 text-indigo-400 py-1 px-3 rounded-full text-xs hover:bg-indigo-500/40 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition cursor-pointer"
+                                    className="bg-indigo-500/20 text-indigo-400 py-1 px-3 rounded-full text-xs hover:bg-indigo-500/40 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition cursor-pointer whitespace-nowrap"
                                 >
                                     {tech}
                                 </span>
                                 ))}
                             </div>
                             <div className = "flex-justify-between items-center mt-4">
-                                <a href="#" className="text-indigo-400 hover:text-indigo-300 transition">View Project →</a>
+                                <a href="https://github.com/molarmuaz/turret" className="text-indigo-400 hover:text-indigo-300 transition">View Project →</a>
                             </div>
                         </div>
 
