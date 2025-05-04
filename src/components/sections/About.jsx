@@ -35,6 +35,11 @@ export const About = () => {
                             </a>{" "}
                             and create something great together!
                         </p>
+                        <div className = "flex justify-center space-x-4">
+                            <a href = "../../assets/ResumeMuazAhmed2025.pdf" className = "bg-indigo-600 text-gray-300 py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] ">
+                                View my Resume
+                            </a>
+                        </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                                 <h3 className="font-bold text-gray-300 text-xl mb-4 ">Languages</h3>

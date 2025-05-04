@@ -53,13 +53,13 @@ export const Projects = () => {
 
                         <div className = "p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:-border-indigo-500/30 hover:-shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all cursor-pointer">
                             <h3 className = "text-xl font-bold mb-2">
-                                XYZ
+                                Smart Email Composer: Chrome Extension
                             </h3>
                             <p className="text-gray-400 mb-4">
-                                afaujehfaouefghaoeughaoudfhgaouehgaoudfh
+                            A context-aware browser extension that leverages the Gemini API to auto-generate professional emails based on mood, subject, relationship, and desired length. The extension seamlessly injects generated content into the compose window, speeding up and streamlining professional communication for faster, smarter email creation.
                             </p>
                             <div>
-                                {["ABC","SEGE","WRWR"].map((tech,key) =>(
+                                {["Chrome Extension Development", "API Integration (Gemini API)", "JavaScript", "HTML", "CSS"].map((tech,key) =>(
                                     <span
                                     key={key}
                                     className="bg-indigo-500/20 text-indigo-400 py-1 px-3 rounded-full text-xs hover:bg-indigo-500/40 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition cursor-pointer"
@@ -69,7 +69,7 @@ export const Projects = () => {
                                 ))}
                             </div>
                             <div className = "flex-justify-between items-center mt-4">
-                                <a href="#" className="text-indigo-400 hover:text-indigo-300 transition">View Project →</a>
+                                <a href="https://github.com/molarmuaz/ai_email_extension" className="text-indigo-400 hover:text-indigo-300 transition">View Project →</a>
                             </div>
                         </div>
 
